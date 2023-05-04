@@ -64,7 +64,26 @@ h2 { color:purple; front font-family: initial;}
 	display: flex;
  }
 
- 
+ .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: lightsalmon;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: #9F3442;
+}
+
+.link:hover {
+  color: #458D2E;
+}
 
 
 
