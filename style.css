@@ -1,27 +1,36 @@
 body { text-align: center; 
-	background:beige; 
-	font-family: arial;
+	background:white; 
+	font-family: initial;
 }
 
 p { font-size: 24px;
  }
  
+a {
+	text-decoration: none;
+}
 
 
 ul { text-align:left; }
 h3 { text-align:left; }
 
-h1 { color: purple;}
-h2 { color:purple; front font-family: initial;}
+h1 { color: black; front font-family:arial }
+h2 { color:black; front font-family: initial;}
+
+h4 { margin:60px }
+
+
+
 
 .frame { 
-	background: lightsalmon; 
+	background: white; 
 	padding: 35px;
 	margin: 35px;
-	border: solid 5px purple ;
+	border: solid 5px white ;
 	border-radius: 5px;
 	box-shadow: 10px 10px 10px grey;
 }
+
 .circle-photo {
 	width: 500px;
 	height: 300px; 
@@ -29,62 +38,59 @@ h2 { color:purple; front font-family: initial;}
 	object-fit: cover;
 	box-shadow: 10px 10px 10px grey;
 }
-
-.box-black { 
-	background: black;
-	height: 500px ;
-	width: 700px ;
-	color: pink;
-	display: flex;
-	justify-content: center;
-	align-items: center; 
-}
-
-.box-blue { 
-	background: blue;
-	height: 300px;
-	width: 200px;
- }
-
-.box-white {
-	background: white;
-	height: 300px;
-	width: 200px;
-}
-
-.box-red { 
-	background: red;
-	height: 300px;
-	width: 200px;
-
- }
-
+ 
 .box-frame { 
 	justify-content: center;
 	display: flex;
  }
 
- .navbar {
+ .my-navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background: lightsalmon;
+  background: white;
+  padding: 20px;
 }
+
+.my-navbar ul {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+}
+
+.my-navbar ul li a {
+	padding: 12px;
+	margin: 0 6 px;
+}
+
+.my-navbar ul li a:hover {
+	color: black;
+	background-color: deeppink;
+}
+
 
 .links {
   display: flex;
   justify-content: flex-end;
+  margin: 20px;
 }
 
 .link {
   margin: 10px 30px;
-  color: #9F3442;
+  color: black;
 }
 
 .link:hover {
-  color: #458D2E;
+  color: black;
 }
 
+h3 { margin:20px }
+
+p { margin : 30px }
+
+.card { 
+margin: 20px;
+
+ }
 
 
 
